@@ -1,0 +1,37 @@
+:root {
+  --dark-text: #575552;
+  --dark-purple: #14142c;
+  --dark-blue: #174e67;
+  --dark-red: #652020;
+  --light-text: #f7f1e3;
+  --light-purple: #706fd3;
+  --light-blue: #34ace0;
+  --light-red: #ff5252;
+}
+
+body {
+  margin: 0px;
+  font-size: 1.1em;
+  font-weight: 100;
+  color: var(--light-text);
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.row,
+.column {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+h1,
+h2 {
+  color: var(--light-text);
+  font-weight: 100;
+  padding: 1rem;
+  margin: 0px;
+}
