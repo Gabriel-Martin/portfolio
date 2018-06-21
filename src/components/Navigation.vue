@@ -1,42 +1,37 @@
 <template>
-    <scrollactive 
-        class="nav column" 
-        active-class="active" 
-        bezier-easing-value=".5,0,.35,1" 
-        :offset="0"
-        :modifyUrl="false"
-    >
-        <a href="#home" class="scrollactive-item"></a>
-        <a href="#main" class="scrollactive-item"></a>
-        <a href="#footer" class="scrollactive-item"></a>
-    </scrollactive>
+  <scrollactive :offset="0" :modifyUrl="false" class="nav column" active-class="active" bezier-easing-value=".5,0,.35,1">
+    <a href="#home" class="scrollactive-item nav-item"></a>
+    <a href="#experience" class="scrollactive-item nav-item"></a>
+    <a href="#knowledge-base" class="scrollactive-item nav-item"></a>
+    <a href="#contact" class="scrollactive-item nav-item"></a>
+  </scrollactive>
 </template>
 
 <script>
-  export default {};
+export default {};
 </script>
 
 <style scoped>
-  @import url("../index.css");
+@import url("../index.css");
 
-  .nav {
-    position: fixed;
-    height: 100%;
-    padding: 0 1em;
-    justify-content: center;
-  }
+.nav {
+  position: fixed;
+  height: 100%;
+  padding: 0 1em;
+  justify-content: center;
+}
 
-  a {
-    width: 10px;
-    height: 10px;
-    border: 1px solid var(--light-text);
-    border-radius: 50%;
-    margin: 1em 0;
-    transition: all 0.2s ease-in-out;
-  }
+.nav-item {
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--light-text);
+  border-radius: 50%;
+  margin: 1em 0;
+  transition: all 0.2s ease-in-out;
+}
 
-  .active {
-    background-color: var(--light-text);
-    transform: scale(1.5);
-  }
+.active {
+  background-color: var(--light-text);
+  transform: scale(1.5);
+}
 </style>

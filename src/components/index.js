@@ -1,4 +1,4 @@
 // Export Components
 
-export { default as AppNavigation } from "./Navigation.vue";
-export { default as AppExperienceCard } from "./ExperienceCard.vue";
+export { default as Navigation } from "./Navigation.vue";
+export { default as ExperienceCard } from "./ExperienceCard.vue";

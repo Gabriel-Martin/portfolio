@@ -1,6 +1,6 @@
 // Export Components
 
-export { default as AppHeader } from "./Header.vue";
-export { default as AppMain } from "./Main.vue";
-export { default as AppFooter } from "./Footer.vue";
-export { default as AppKnowledgeBase } from "./KnowledgBase.vue";
+export { default as Home } from "./Home.vue";
+export { default as Experience } from "./Experience.vue";
+export { default as KnowledgeBase } from "./KnowledgBase.vue";
+export { default as Contact } from "./Contact.vue";

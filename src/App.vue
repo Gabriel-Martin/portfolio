@@ -1,25 +1,25 @@
 <template>
   <div id="app">
-    <app-navigation />
-    <app-header />
-    <app-main />
-    <app-knowledge-base />
-    <app-footer />
+    <navigation />
+    <home />
+    <experience />
+    <knowledge-base />
+    <contact />
   </div>
 </template>
 
 <script>
-  import { AppNavigation } from "./components";
-  import { AppHeader, AppMain, AppKnowledgeBase, AppFooter } from "./containers";
+import { Navigation } from "./components";
+import { Home, Experience, KnowledgeBase, Contact } from "./containers";
 
-  export default {
-    name: "app",
-    components: {
-      AppNavigation,
-      AppHeader,
-      AppMain,
-      AppKnowledgeBase,
-      AppFooter
-    }
-  };
+export default {
+  name: "app",
+  components: {
+    Navigation,
+    Home,
+    Experience,
+    KnowledgeBase,
+    Contact
+  }
+};
 </script>
