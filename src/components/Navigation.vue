@@ -3,7 +3,8 @@
         class="nav column" 
         active-class="active" 
         bezier-easing-value=".5,0,.35,1" 
-        offset="0"
+        :offset="0"
+        :modifyUrl="false"
     >
         <a href="#home" class="scrollactive-item"></a>
         <a href="#main" class="scrollactive-item"></a>
@@ -15,8 +16,8 @@
   export default {};
 </script>
 
-<style>
-  @import url("~@/index.css");
+<style scoped>
+  @import url("../index.css");
 
   .nav {
     position: fixed;

@@ -3,13 +3,14 @@
     <app-navigation />
     <app-header />
     <app-main />
+    <app-knowledge-base />
     <app-footer />
   </div>
 </template>
 
 <script>
-  import { AppNavigation } from "components";
-  import { AppHeader, AppMain, AppFooter } from "containers";
+  import { AppNavigation } from "./components";
+  import { AppHeader, AppMain, AppKnowledgeBase, AppFooter } from "./containers";
 
   export default {
     name: "app",
@@ -17,6 +18,7 @@
       AppNavigation,
       AppHeader,
       AppMain,
+      AppKnowledgeBase,
       AppFooter
     }
   };

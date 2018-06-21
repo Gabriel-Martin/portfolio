@@ -1,17 +1,19 @@
 :root {
   --dark-text: #575552;
   --dark-purple: #14142c;
-  --dark-blue: #174e67;
-  --dark-red: #652020;
+  --dark-blue: #202065;
+  --dark-red: #CB132C;
+  --dark-orange: #f8690e;
   --light-text: #f7f1e3;
   --light-purple: #706fd3;
-  --light-blue: #34ace0;
+  --light-blue: #0E79B2;
   --light-red: #ff5252;
+  --deepPurple: #85144B;
 }
 
 body {
   margin: 0px;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 100;
   color: var(--light-text);
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -29,9 +31,8 @@ body {
 }
 
 h1,
-h2 {
-  color: var(--light-text);
+h2,
+h3 {
   font-weight: 100;
-  padding: 1rem;
-  margin: 0px;
+  margin: 0;
 }
