@@ -11,6 +11,7 @@
     "netlify-cli": "^1.2.2",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.16",
+    "vue-in-viewport-directive": "^1.1.4",
     "vue-scrollactive": "^0.6.1"
   },
   "devDependencies": {
@@ -26,5 +27,13 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "vue": {
+    "pwa": {
+      "themeColor": "#f9873e"
+    },
+    "devServer": {
+      "port": 3030
+    }
+  }
 }

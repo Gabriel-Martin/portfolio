@@ -17,7 +17,7 @@ export default {};
 .nav {
   position: fixed;
   height: 100%;
-  padding: 0 1em;
+  margin: 0 1em;
   justify-content: center;
 }
 

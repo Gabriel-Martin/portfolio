@@ -6,10 +6,10 @@
 
     <transition enter-active-class="animated fadeInLeft" appear>
       <div class="content-container" v-show="renderContent">
-        <h1 class="name" key="name">Gabriel Martin</h1>
-        <hr>
-        <h2 class="profession" key="profession">Web Developer</h2>
-        <p class="about-me" key="about-me">
+        <h1 class="name">Gabriel Martin</h1>
+        <hr class="divider">
+        <h2 class="profession">Web Developer</h2>
+        <p class="about-me">
           Full Stack web developer with a passion for learning. I strive to better myself through peer review and self reflection. Apart from coding, I enjoy Disc Golf, bicycling, fitness and exercise. I'm seeking employment as of June, 2018! If you think I can provide value to your team, please reach out via the contact links in the footer!
         </p>
       </div>
@@ -20,9 +20,7 @@
 <script>
 export default {
   data() {
-    return {
-      renderContent: false
-    };
+    return { renderContent: false };
   },
   methods: {
     contentReady() {
@@ -36,10 +34,9 @@ export default {
 @import url("~@/index.css");
 
 .container {
-  margin: 0;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 8rem);
+  min-height: calc(100vh - 8rem);
   padding: 4rem;
   background: linear-gradient(
     35deg,
@@ -48,32 +45,29 @@ export default {
   );
 }
 
-.content-container {
-  padding: 1rem;
+.container,
+.divider {
+  margin: 0;
 }
 
-.profile-image-enter {
-  display: none;
+.divider {
+  margin: 1rem 0;
+}
+
+.content-container {
+  margin-top: 1rem;
 }
 
 .profile-image {
   height: auto;
   max-width: 200px;
-  border: 8px solid var(--light-text);
   border-radius: 50%;
+  border: 8px solid var(--light-text);
 }
 
-.name {
-  margin: 0px;
-  padding-bottom: 1rem;
-}
-
-hr {
-  margin: 0;
-}
-
-.profession {
-  margin: 0px;
-  padding-top: 1rem;
+@media screen and (max-width: 425px) {
+  .container {
+    padding: 3rem;
+  }
 }
 </style>

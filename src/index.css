@@ -1,14 +1,9 @@
 :root {
-  --dark-text: #575552;
-  --dark-purple: #14142c;
-  --dark-blue: #202065;
-  --dark-red: #CB132C;
+  --dark-red: #cb132c;
   --dark-orange: #f8690e;
   --light-text: #f7f1e3;
-  --light-purple: #706fd3;
-  --light-blue: #0E79B2;
-  --light-red: #ff5252;
-  --deepPurple: #85144B;
+  --light-blue: #0e79b2;
+  --deepPurple: #85144b;
 }
 
 body {
