@@ -1,7 +1,7 @@
 <template>
   <div class="container" id="contact">
     <h1 class="header">Contact</h1>
-    <hr>
+    <hr class="divider">
     <div class="contact-link-container row">
       <p>
         <a href="mailto:gabriel.martin91@outlook.com" class="email-link">gabriel.martin91@outlook.com</a>
@@ -22,49 +22,54 @@
 </template>
 
 <script>
-export default {};
+  export default {};
 </script>
 
 <style scoped>
-.container {
-  padding: 4rem;
-  background-color: var(--dark-orange);
-}
+  .container {
+    padding: 4rem;
+    background-color: var(--dark-orange);
+  }
 
-.email-link {
-  font-size: 400;
-  text-decoration: none;
-}
+  .divider {
+    border-style: solid;
+    margin: 1rem 0 2rem 0;
+  }
 
-.email-link,
-.icon-anchor {
-  color: var(--light-text);
-}
+  .email-link {
+    font-size: 400;
+    text-decoration: none;
+  }
 
-.contact-link-container {
-  align-items: center;
-  justify-content: space-between;
-}
+  .email-link,
+  .icon-anchor {
+    color: var(--light-text);
+  }
 
-.icon-anchor {
-  margin: 0 1rem;
-  font-size: 2rem;
-}
-
-@media screen and (max-width: 700px) {
   .contact-link-container {
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
   }
 
-  .icon-container {
-    margin-left: 0;
+  .icon-anchor {
+    margin: 0 1rem;
+    font-size: 2rem;
   }
-}
 
-@media screen and (max-width: 425px) {
-  .container {
-    padding: 3rem;
+  @media screen and (max-width: 700px) {
+    .contact-link-container {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .icon-container {
+      margin-left: 0;
+    }
   }
-}
+
+  @media screen and (max-width: 425px) {
+    .container {
+      padding: 3rem;
+    }
+  }
 </style>

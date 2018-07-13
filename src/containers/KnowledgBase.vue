@@ -47,7 +47,7 @@
   @import url("../index.css");
 
   .container {
-    padding: 4em;
+    padding: 4rem;
     min-height: calc(100vh - 8em);
     background: linear-gradient(
       35deg,
@@ -66,8 +66,9 @@
   }
 
   .divider {
-    margin: 1rem;
     min-width: 100%;
+    border-style: solid;
+    margin: 1rem 0 2rem 0;
   }
 
   .knowledge-base-card {

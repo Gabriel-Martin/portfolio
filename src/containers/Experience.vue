@@ -58,6 +58,7 @@
 
   .divider {
     width: 100%;
+    border-style: solid;
     margin: 1rem 0 2rem 0;
   }
 
