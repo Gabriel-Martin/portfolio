@@ -7,9 +7,9 @@
         <a href="mailto:gabriel.martin91@outlook.com" class="email-link">gabriel.martin91@outlook.com</a>
       </p>
       <div class="icon-container">
-        <a href="https://twitter.com/glmartin91" target="_blank" class="icon-anchor">
+        <!-- <a href="https://twitter.com/glmartin91" target="_blank" class="icon-anchor">
           <i class="fab fa-twitter-square"></i>
-        </a>
+        </a> -->
         <a href="https://www.linkedin.com/in/gl-martin/" target="_blank" class="icon-anchor">
           <i class="fab fa-linkedin"></i>
         </a>
