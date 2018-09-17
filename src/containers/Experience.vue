@@ -15,19 +15,19 @@
     data: () => ({
       experience: [
         {
-          name: "CRM",
+          name: "Hayden Seniors",
           type: "Professional",
-          summary: "Customer relations managemet using React, GraphQL and Prisma",
-          githubLink: "https://github.com/Gabriel-Martin/crm",
-          demoLink: ""
+          summary: "Guest and volunteer tracking for weekly activities.",
+          githubLink: "https://github.com/Gabriel-Martin/hayden-senior-center",
+          demoLink: "https://hsc-demo.surge.sh"
         },
-        {
-          name: "!Employed",
-          type: "Personal",
-          summary: "Post jobs as a business, or apply for jobs as an individual.",
-          githubLink: "https://github.com/Gabriel-Martin/job-placement-app",
-          demoLink: ""
-        },
+        // {
+        //   name: "!Employed",
+        //   type: "Personal",
+        //   summary: "Post jobs as a business, or apply for jobs as an individual.",
+        //   githubLink: "https://github.com/Gabriel-Martin/job-placement-app",
+        //   demoLink: ""
+        // },
         {
           name: "CADENCE",
           type: "Personal",
