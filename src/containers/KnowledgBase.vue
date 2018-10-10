@@ -40,60 +40,60 @@
 </template>
 
 <script>
-  export default {};
+export default {};
 </script>
 
 <style scoped>
-  @import url("../index.css");
+@import url("../index.css");
 
+.container {
+  padding: 4rem;
+  min-height: calc(100vh - 8em);
+  background: linear-gradient(
+    35deg,
+    var(--light-blue) 74%,
+    var(--deepPurple) 74%
+  );
+}
+
+.heading {
+  text-align: right;
+}
+
+.sub-heading {
+  max-width: fit-content;
+  border-bottom: 1px solid var(--light-text);
+}
+
+.divider {
+  min-width: 100%;
+  border-style: solid;
+  margin: 1rem 0 2rem 0;
+}
+
+.knowledge-base-card {
+  min-width: 100%;
+}
+
+.knowledge-base-list li {
+  margin-right: 2rem;
+}
+
+.knowledge-base-item {
+  margin: 3rem;
+}
+
+.knowledge-base-item + .knowledge-base-item {
+  margin: 3rem;
+}
+
+@media screen and (max-width: 425px) {
   .container {
-    padding: 4rem;
-    min-height: calc(100vh - 8em);
-    background: linear-gradient(
-      35deg,
-      var(--light-blue) 74%,
-      var(--deepPurple) 74%
-    );
+    padding: 3rem;
   }
 
-  .heading {
-    text-align: right;
+  .knowledge-base-list {
+    flex-direction: column;
   }
-
-  .sub-heading {
-    max-width: fit-content;
-    border-bottom: 1px solid var(--light-text);
-  }
-
-  .divider {
-    min-width: 100%;
-    border-style: solid;
-    margin: 1rem 0 2rem 0;
-  }
-
-  .knowledge-base-card {
-    min-width: 100%;
-  }
-
-  .knowledge-base-list li {
-    margin-right: 2rem;
-  }
-
-  .knowledge-base-item {
-    margin: 3rem;
-  }
-
-  .knowledge-base-item + .knowledge-base-item {
-    margin: 3rem;
-  }
-
-  @media screen and (max-width: 425px) {
-    .container {
-      padding: 3rem;
-    }
-
-    .knowledge-base-list {
-      flex-direction: column;
-    }
-  }
+}
 </style>

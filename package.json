@@ -5,14 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "yarn build && netlify deploy",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "yarn build && netlify deploy"
   },
   "dependencies": {
     "netlify-cli": "^1.2.2",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.16",
     "vue-in-viewport-directive": "^1.1.4",
+    "vue-router": "^3.0.1",
     "vue-scrollactive": "^0.6.1"
   },
   "devDependencies": {
@@ -24,14 +25,19 @@
     "babel-plugin-module-resolver": "^3.1.1",
     "vue-template-compiler": "^2.5.16"
   },
+  "vue": {
+    "pwa": {
+      "themeColor": "#f9873e"
+    }
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
   ],
-  "vue": {
-    "pwa": {
-      "themeColor": "#f9873e"
-    }
+  "jsconfig": {
+    "include": [
+      "./src/**/*"
+    ]
   }
 }
