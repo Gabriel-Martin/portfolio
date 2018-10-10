@@ -3,7 +3,7 @@
     <h1 class="section-header">Experience</h1>
     <hr class="divider">
     <div class="experience-container column">
-      <experience-card v-for="(item, index) in experience" :key="index" v-bind='item' />
+      <experience-card v-for="(item, index) in experience" :key="index" v-bind="item"/>
     </div>
     <p>I'm currently looking for more experience! If you have any insight feel free to reach out. Contact links are in the footer.</p>
   </div>
