@@ -15,7 +15,7 @@
         <h2 class="profession">Web Developer</h2>
         <p
           class="about-me"
-        >Full Stack web developer with a passion for learning. I strive to better myself through peer review and self reflection. Apart from coding, I enjoy Disc Golf, bicycling, fitness and exercise. I'm seeking employment as of June, 2018! If you think I can provide value to your team, please reach out via the contact links in the footer!</p>
+        >Full Stack web developer with a passion for learning. I strive to better myself through peer review and self reflection. Apart from coding, I enjoy Disc Golf, bicycling, fitness and exercise. I'm currently seeking employment! If you think I can provide value to your team, please reach out via the contact links in the footer!</p>
       </div>
     </transition>
   </div>
