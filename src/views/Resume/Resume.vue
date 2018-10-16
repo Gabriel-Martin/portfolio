@@ -11,17 +11,17 @@
         <SideColumnSection :title="languages.title" :items="languages.items"/>
       </div>
       <div class="main">
-        <p>Motivated web developer with a passion for learning and a drive to excel. Over 2 years experience in small business application development using technologies such as React, Express, RethinkDB and Google Firebase. Strong supporter of team collaboration, communication and peer review. Experience with small team management and business operations.</p>
+        <p>Motivated web developer with a passion for learning and a drive to excel. Two years experience in web development using technologies such as React, Express, RethinkDB and Google Firebase. Strong supporter of team collaboration, communication and peer review. Experience with small team management and business operations.</p>
         <hr>
         <h2 class="section-title">Experience</h2>
         <hr>
         <ExperienceSection
-          v-for="item in experienceItems"
           :key="item.company"
           :company="item.company"
           :position="item.position"
-          :responsibilities="item.responsibilities"
+          v-for="item in experienceItems"
           :achievements="item.achievements"
+          :responsibilities="item.responsibilities"
         />
         <hr>
         <h2 class="section-title">Interests</h2>
