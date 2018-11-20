@@ -4,7 +4,7 @@
     <hr class="divider">
     <div class="contact-link-container row">
       <p>
-        <a href="mailto:gabriel.martin91@outlook.com" class="email-link">gabriel.martin91@outlook.com</a>
+        <a href="mailto:glmartin.616@gmail.com" class="email-link">glmartin.616@gmail.com</a>
       </p>
       <div class="icon-container">
         <!-- <a href="https://twitter.com/glmartin91" target="_blank" class="icon-anchor">
@@ -34,6 +34,7 @@ export default {};
 .divider {
   border-style: solid;
   margin: 1rem 0 2rem 0;
+  border-color: #f7f1e3;
 }
 
 .email-link {

@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style scoped>
-@import url("~@/index.css");
+@import url('~@/index.css');
 
 .container {
   align-items: center;
@@ -56,6 +56,7 @@ export default {
 .divider {
   margin: 1rem 0;
   border-style: solid;
+  border-color: #f7f1e3;
 }
 
 .content-container {

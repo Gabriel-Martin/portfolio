@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style scoped>
-@import url("../index.css");
+@import url('../index.css');
 
 .container {
   padding: 4rem;
@@ -60,6 +60,7 @@ export default {
   width: 100%;
   border-style: solid;
   margin: 1rem 0 2rem 0;
+  border-color: #f7f1e3;
 }
 
 .experience-container {
